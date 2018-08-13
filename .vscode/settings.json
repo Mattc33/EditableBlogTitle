@@ -1,0 +1,11 @@
+{
+    "javascript.validate.enable": false,
+    "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".module.css",
+          "savePath": null
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+}

@@ -1,0 +1,33 @@
+header {
+    height: 100vh;
+    background-image: url('../../Assets/Ji9qebSpSlSbnsWRZnDX__MG_9520.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
+    grid-area: header;
+
+    display: grid;
+    grid-template-columns: 70px repeat(8, [col-start] 1fr [col-end]) 70px;
+    grid-template-rows: repear(8, 1fr);
+    grid-template-areas:
+        '. . . . . . . nav nav .'
+        '. . . . . . . . . .'
+        '. . . . . . . . . .'
+        '. . . . . . . . . .'
+        '. . . . . . . . . .'
+        '. . . . . . . . . .'
+        '. . . . . . . . . .'
+        '. . title title title title . . . .'
+        ;
+
+    nav {
+        grid-area: nav;
+        justify-self: end;
+
+        .logoAndHamburger {
+            height: 30px; width: 300px;
+            margin-top: 80px;
+            background-image: url('../../Assets/logo_and_hamburger.svg');
+            background-size: cover;
+        }
+    }
+}

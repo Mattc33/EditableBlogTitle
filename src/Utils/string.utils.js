@@ -1,3 +1,4 @@
+// @flow
 const StringUtils = {
     parseIntoSlug: (str: string): string => {
         const slug = str.replace(/\W+/g, "-").toLocaleLowerCase();

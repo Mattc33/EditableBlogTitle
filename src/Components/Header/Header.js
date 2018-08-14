@@ -33,7 +33,6 @@ class Header extends Component {
     }
 
     saveTitleString = (value: string): void => {
-        console.log(value)
         this.setState({titleString: value.titleString})
         this.changeTitleState()
     }

@@ -19,6 +19,8 @@ class TitleEdit extends Component {
 
     componentDidMount() {
         this.loadTitleString(this.state.title.titleString)
+        const newSlug = this.detectDatabaseEntries(_stringUtils.parseIntoSlug(this.state.title.titleString))
+        this.setState({title: {titleString: this.state.title.titleString, titleSlug: newSlug}})
     }
 
     // * Input Events

@@ -4,3 +4,21 @@
 2. start project - `yarn start`
 3. Run test - `yarn test`
 
+## Tech used
+
+- Javascript
+- React
+- Jest
+
+## Live
+
+
+
+## Goals:
+
+Beginnings of editable blog.
+
+Passing Child Component events/props to Parent and back down to another child component
+
+
+

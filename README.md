@@ -12,7 +12,7 @@
 
 ## Live
 
-
+https://editableblog.netlify.com
 
 ## Goals:
 
